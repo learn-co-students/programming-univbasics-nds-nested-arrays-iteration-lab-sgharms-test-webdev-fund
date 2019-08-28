@@ -157,6 +157,9 @@ matrices and Ruby:
 * Gather all the elements to create a single value
 
 In the lab, we're going to ask you to adapt these "reference implementations"
-to do some specific work. It's awesome to know that you don't need anything
-more complex than while loops and assignments to process complex structures
-into _insight_!
+to do some drills. It's awesome to know that you don't need anything more
+complex than while loops and assignments to process complex structures into
+_insight_! These drills are designed to help you have the tools you're going to
+need to work with complex, nested `Array`s of `Array`s. Building these skills
+means that when you encounter "`Array`s of `Hash`es of `Array`s of `Array`s,"
+you'll have trained to meet that challenge.
