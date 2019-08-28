@@ -9,14 +9,14 @@
 ## Introduction
 
 When we started this module we mentioned that one of the core uses of nested
-data structures is doing data processing on them. We're going to pick out three
+data structures are doing data processing on them. We're going to pick out three
 specific types of processing here:
 
 * Displaying the nested structure
 * Transforming the nested structure into a new structure
 * Transforming the nested structure into a result
 
-In each of these sections we're going to give you a bit of "reference code."
+In each of these sections, we're going to give you a bit of "reference code."
 Reference code is code that's a little generic and probably doesn't solve any
 _real_ problem, but which is kept intentionally ***very simple*** so that you
 can see how it might be adapted to your particular need. Some people call these
@@ -112,9 +112,9 @@ end
 results #=> => ["Posh", "Paprika", "Parsley"]
 ```
 
-This pattern is known as "mapping" because you're taking an input and
-transforming it to a new value. As you learn Ruby's Enumerable methods,
-remembering this little fact will help a lot!
+This pattern is known as "mapping" because you're taking an input value and
+transforming it into a new value. As you learn Ruby's `Enumerable` methods in
+just a little while, remembering this little fact will help a lot!
 
 ## Traverse `Array` of `Array`s to Produce a Single Value
 
@@ -144,7 +144,7 @@ total #=> 297
 ```
 
 This pattern is known as "reduction" because you're going to _reduce_ a nested
-data structure to a single value. As you learn Ruby's Enumerable methods,
+data structure to a single value. As you learn Ruby's `Enumerable` methods,
 remembering this little fact will help a lot!
 
 ## Conclusion
